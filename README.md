@@ -1,4 +1,4 @@
-# cl-mall-app
+# cl-mall-app 每日生鲜项目
 
 ## Project setup
 ```
@@ -27,3 +27,8 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+## 还剩余的问题
+1. 路由之间的切换有动画
+2. 飞入购物车的动画

@@ -1,18 +1,36 @@
+<!--
+ * @Author: CL
+ * @Date: 2021-03-15 21:52:22
+ * @LastEditTime: 2021-03-15 22:26:31
+ * @Description: 首页
+-->
+
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="home-page">
+    <!-- 这个router-view是展示分类和购物车的 -->
+    <router-view></router-view>
+
+    <!-- 底部tabbar -->
+    <tabbar />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import tabbar from '../components/TabBar';
 
 export default {
-  name: 'Home',
+  data(){
+    return {
+      
+    }
+  },
+
   components: {
-    HelloWorld
+    tabbar
   }
 }
 </script>
+
+<style>
+
+</style>
